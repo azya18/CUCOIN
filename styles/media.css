@@ -1,0 +1,198 @@
+@media(max-width:1400px) {}
+
+@media(max-width:1200px) {
+    .mix1 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .mix1__text {
+        width: 100%;
+    }
+}
+
+@media(max-width:992px) {
+    .mix1__img {
+        width: 400px;
+        height: 250px;
+    }
+
+    .directions__desc {
+        width: 100%;
+    }
+
+    .footer__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .directoins__row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .directions__row-item:nth-of-type(3) {
+        grid-column: 1/3;
+        width: 407px;
+        margin: auto;
+    }
+
+    .header {
+        height: 850px;
+    }
+
+    .header__intro-desc {
+        width: 100%;
+    }
+
+
+}
+
+@media(max-width:768px) {
+    .nav__content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header__nav {
+        margin-bottom: 50px;
+    }
+
+    .directions {
+        padding-top: 0;
+        padding-bottom: 118px;
+    }
+
+    .nav__list {
+        gap: 15px;
+    }
+
+    .missonGoal {
+        padding-top: 0;
+        padding-bottom: 118px;
+    }
+
+    .header {
+        margin-bottom: 188px;
+    }
+
+    .directoins__row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .directions__row-item:nth-of-type(3) {
+        width: 100%;
+    }
+
+}
+
+@media(max-width:576px) {
+    .header__intro-title {
+        font-size: 60px;
+    }
+
+    .mix1__img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .nav__link {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .header__buttons {
+        width: 300px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .info__title {
+        width: 100%;
+    }
+
+    .nav__list {
+        gap: 10px;
+    }
+
+    .header__intro-btn {
+        padding: 15px;
+    }
+
+    .header__intro-title {
+        font-size: 50px;
+    }
+
+    .header__intro-desc {
+        font-size: 20px;
+    }
+
+    .directions__row-item {
+        gap: 5px;
+        padding: 15px 45px;
+    }
+
+    .mix1__text:nth-of-type(1) {
+        height: 120px;
+    }
+
+    .mix1__text:nth-of-type(2) {
+        height: 120px;
+    }
+
+    .mix1__text:nth-of-type(3) {
+        height: 70px;
+    }
+}
+
+@media (max-width:400px) {
+    .mix1__text:nth-of-type(1) {
+        font-size: 15px;
+    }
+
+    .mix1__text:nth-of-type(2) {
+        font-size: 15px;
+    }
+
+    .mix1__text:nth-of-type(3) {
+        font-size: 15px;
+    }
+
+    .nav__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+
+    .nav__link {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .signup__title {
+        font-size: 30px;
+    }
+
+    .signup__form {
+        grid-template-columns: 1fr;
+    }
+
+    .signup__inp:nth-of-type(3) {
+        grid-column: auto;
+    }
+
+    .mix1__text:nth-of-type(1) {
+        height: 150px;
+    }
+
+    .mix1__text:nth-of-type(2) {
+        height: 170px;
+    }
+
+    .mix1__text:nth-of-type(3) {
+        height: 100px;
+    }
+}
